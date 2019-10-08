@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact With Us</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<header id="header">
+<nav>
+	<ul>
+		<li><a href="./index.html"><i class="fa fa-home"></i>HOME</a></li>
+		<li><a href="./AboutPage.html"><i class="fa fa-user"></i>ABOUT US </a></li>
+		<li><a href="./MenuPage.html"><i class="fa fa-bars"></i>MENU</a></li>
+		<li><a href="./contact.html"><i class="fa fa-envelope"></i>CONTACT</a></li>
+	</ul>
+</nav>
+</header>
+
+<main id="container">
+	<div id="main">
+		<div class="wapper">
+		<form  method="post" class="contact-form">
+			<div class="input-fields">
+			<p>Full Name</p>
+			<input type="text" name="FullName" required="required" maxlength="50" placeholder="Your Full Name" class="input">
+			<p>Phone Number</p>
+			<input type="tel" name="PhoneNumber" required="required" maxlength="10" placeholder="Phone Number" class="input">
+			<p>E-mail</p>
+			<input type="E-mail" name="E-mail" required="required" maxlength="50" placeholder="123@Example.com" class=input>
+		    </div>
+
+
+		    <div class="msg">
+		    <p> Description</p>
+			<textarea placeholder="Your message" maxlength="200" required="required"></textarea>
+			<div class="btn" onclick="myFunction()">Submit
+				<script>
+					function myFunction(){
+						window.alert("Hello Dear Visitior!"+
+						" We are happy that you've chosen our cafe'")
+					}
+				</script>
+			</div>
+		    </div>
+		</form>
+	</div>
+	</div>
+</main>
+
+<footer id="footer">
+	<p class="p_10">Coffee & Study</p>
+	<table  class="table-00">
+		<tr> 
+			<th>Quick Links</th>
+			<th>CONTACT</th>
+			<th></th>
+		</tr>
+		<tr>
+			
+			<td class="p_02"> <a href="./index.html">Home Page</td>
+			<td class="p_02"><p class="p_02">Amman, Jordan</p></td>	
+			<td rowspan="3">
+				<p class="p_01"> copyright &copy; <script>document.write(new Date().getFullYear());</script> </p>
+	            <p class="p_01">Designed by Esra'a Taha</p>
+			</td>
+		</tr>
+		<tr>
+			<td class="p_02" > <a href="./AboutPage.html">About Us</td>
+			<td><p class="p_02">Tel :+962 792674260</p></td>	
+		</tr>
+		<tr>
+			<td class="p_02"> <a href="./MenuPage.html">Menu Page</td>
+			<td><p class="p_02">E-mail : <a href="mailto:etaha1997@gmail.com">etaha1997@gmail.com</a>.</p></td>
+		</tr>
+		<tr>
+			<td class="p_02" > <a href="./Contact.html">Contact Us</td>
+		</tr>
+	</table>
+</body>
+</html>
